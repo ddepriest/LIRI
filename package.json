@@ -1,0 +1,25 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "Week 10 node.js Homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddepriest/LIRI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddepriest/LIRI/issues"
+  },
+  "homepage": "https://github.com/ddepriest/LIRI#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
