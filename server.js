@@ -9,7 +9,11 @@ var userName = process.argv[3];
 
 
 var client = new Twitter({
-)};
+    consumer_key: '',
+    consumer_secret: '',
+    access_token_key: '',
+    access_token_secret: ''
+});
    
 var params = {screen_name: userName, count: 2};
 client.get('statuses/user_timeline', params, function(error, tweetsArr, response) {
